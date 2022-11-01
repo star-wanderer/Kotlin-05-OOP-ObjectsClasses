@@ -23,5 +23,6 @@ data class Post(
     val canEdit: Boolean = true,
     val isPinned: Boolean = false,
     val markedAsAdds: Boolean = false,
-    val isFavorite: Boolean = false
+    val isFavorite: Boolean = false,
+    val attachment: Array<Attachment> = emptyArray<Attachment>()
 )
