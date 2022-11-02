@@ -5,4 +5,4 @@ data class Likes (
     val userLikes: Boolean = false,
     val canLike: Boolean = true,
     val canPublish: Boolean = true
-){}
+)
