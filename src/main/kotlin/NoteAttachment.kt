@@ -14,7 +14,7 @@ class Note (
     var text: String = "enter text here",
     date: Int = 0,
     comments: Int = 0,
-    val read_comments: Int = 0
+    val readComments: Int = 0
 ) {
     var id: Int = abs(id)
         set (value) {

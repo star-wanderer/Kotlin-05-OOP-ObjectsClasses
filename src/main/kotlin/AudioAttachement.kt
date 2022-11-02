@@ -12,9 +12,9 @@ class Audio (
     var title: String = "enter new title here",
     var duration: Int = 0,
     var url: String = "enter new URL here",
-    var lyrics_id: Int? = null,
-    var album_id: Int? = null,
-    var genre_id: Int = 0,
+    var lyricsId: Int? = null,
+    var albumId: Int? = null,
+    var genreId: Int = 0,
     var date: Int = 0,
-    var no_search: Int = -1
+    var noSearch: Int = -1
 )
